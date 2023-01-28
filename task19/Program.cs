@@ -7,7 +7,7 @@ System.Console.WriteLine("Введите пятизначное чисо: ");
 string? text = Console.ReadLine();
 if (text!.Length == 5)
 {
-    if ( text [0] == text [4] && text[1] == text [3])
+    if (text[0] == text[4] && text[1] == text[3])
     {
         System.Console.WriteLine($"{text} -> полиндром");
     }
