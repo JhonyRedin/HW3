@@ -4,15 +4,16 @@
 // 5 -> 1, 8, 27, 64, 125
 
 System.Console.WriteLine("Введите число больше 1: ");
-int num = Convert.ToInt32 (Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 double exp = 0;
 
-if (num >0){
-for (int i=1; i <= num; i++)
+if (num > 0)
 {
-    exp = Math.Pow (i,3);
-    System.Console.Write($"{exp} ");
-}
+    for (int i = 1; i <= num; i++)
+    {
+        exp = Math.Pow(i, 3);
+        System.Console.Write($"{exp} ");
+    }
 }
 else
 {
